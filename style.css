@@ -1,11 +1,30 @@
 
-.header{
-    background-color: rgba(255, 144, 14, 0.1);;
+*{
+    margin: 20px;
+}
+.Brand{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;  
+}
+.head-title{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+.top-title{
+    text-align: center;
+    width: 862px;
+    height: 225px;
 }
 .header-title{
 
 }
-.decption img{
+.top-title img{
     width: 1440px;
     height: 700px;
+}
+.half-width{
+    width: 50%;
+    grid-template: 2fr;
 }
