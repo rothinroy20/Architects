@@ -1,6 +1,6 @@
 
 *{
-    margin: 20px;
+    margin: 30px;
 }
 .Brand{
     font-weight: 700;
@@ -24,7 +24,19 @@
     width: 1440px;
     height: 700px;
 }
+.features{
+    display: flex;
+}
 .half-width{
-    width: 50%;
-    grid-template: 2fr;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.featuress{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.feature{
+    display: grid;
 }
