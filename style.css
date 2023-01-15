@@ -43,3 +43,25 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.feature-2{
+    width: 586px;
+    height: 984.78px;
+}
+.architect-img{
+    width: 800px;
+    height: 1059px;
+}
+.down{
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.copyright{
+    /* width: 620px; */
+    height: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
